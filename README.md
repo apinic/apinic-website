@@ -1,4 +1,4 @@
-apinic-website
-==============
+apinic
+===========
 
-Sitio web de API Nicaragua
+www.apinic.org website
