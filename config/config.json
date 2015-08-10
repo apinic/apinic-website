@@ -1,14 +1,14 @@
 {
 
-    
+
     "express": {
         "view cache": false,
         "view engine": "js",
         "views": "path:./.build/templates"
     },
-    
 
-    
+
+
     "view engines": {
         "js": {
             "module": "makara",
@@ -23,19 +23,19 @@
 
     "dust": {
         "helpers": [
-    
+
         ]
     },
-    
 
-    
+
+
 
     "specialization": {
     },
 
     "middleware": {
 
-        
+
         "makara": {
             "priority": 100,
             "enabled": true,
@@ -49,7 +49,7 @@
                 ]
             }
         },
-        
+
 
         "static": {
             "module": {
@@ -61,6 +61,14 @@
             "module": {
                 "arguments": [{ "directory": "path:./controllers" }]
             }
+        },
+
+        "menu": {
+          "priority": 90,
+          "enabled": true,
+          "module": {
+            "name": "path:./lib/menu"
+          }
         }
 
     }

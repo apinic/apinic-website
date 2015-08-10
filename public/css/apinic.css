@@ -1,0 +1,5 @@
+.tuc-section-image {
+    background: url('http://res.cloudinary.com/dak42/image/upload/v1439180644/apinic/section_tuc.jpg') center top no-repeat;
+    background-size: cover;
+    height: 400px;
+}

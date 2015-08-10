@@ -1,0 +1,5 @@
+{>"layouts/master" /}
+
+{<body}
+    <h1>Multas de tránsito</h1>
+{/body}
