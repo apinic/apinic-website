@@ -2,7 +2,7 @@
 
 {<body}
   <div class="android-more-section">
-    <div class="android-section-title mdl-typography--display-1-color-contrast">Saldo Tuc</div>
+    <div class="android-section-title mdl-typography--display-1-color-contrast mdl-cell--hide-phone">Saldo Tuc</div>
     <div class="android-card-container mdl-grid">
       <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-cell--hide-phone ">
         {>"layouts/adsense_left_300_250" /}
