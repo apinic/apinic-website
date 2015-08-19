@@ -4,13 +4,18 @@
   <div class="android-more-section">
     <div class="android-section-title mdl-typography--display-1-color-contrast">Saldo Tuc</div>
     <div class="android-card-container mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-cell--hide-phone ">
         {>"layouts/adsense_left_300_250" /}
       </div>
       <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
         <div class="mdl-card__media">
           <img src="http://res.cloudinary.com/dak42/image/upload/v1439955733/apinic/bus.png" />
         </div>
+
+        <div class="loading-container mdl-shadow--2dp">
+          <div class="mdl-typography--display-2" id="response">SALDO</div>
+        </div>
+
         <div class="mdl-card__supporting-text">
           <form action="#">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
@@ -23,12 +28,13 @@
           </form>
         </div>
         <div class="mdl-card__actions">
-          <button class="mdl-button mdl-js-button mdl-button--primary">
+          <div class="mdl-spinner mdl-js-spinner is-active"></div>
+          <button class="mdl-button mdl-js-button mdl-button--primary" id="button">
             Consultar
           </button>
         </div>
       </div>
-      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-cell--hide-phone">
         {>"layouts/adsense_right_300_250" /}
       </div>
     </div>

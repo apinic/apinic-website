@@ -3,3 +3,14 @@
     background-size: cover;
     height: 400px;
 }
+
+.loading-container {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  padding: 3px;
+}
+
+.mdl-spinner {
+  display: none;
+}
