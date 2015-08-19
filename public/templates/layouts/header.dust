@@ -32,7 +32,7 @@
             {/menu.right}
           </ul>
           <span class="android-mobile-title mdl-layout-title">
-            <img class="android-logo-image" src="images/apinic-logo.png">
+            <img class="android-logo-image" src="/images/apinic-logo.png">
           </span>
         </div>
       </div>

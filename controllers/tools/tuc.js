@@ -2,6 +2,14 @@
 
 module.exports = function (router) {
   router.get('/', function (req, res) {
-      res.render('tools/tuc');
+    var model = {
+      scripts: [
+        {
+          file: 'tools/tuc'
+        }
+      ]
+    };
+
+      res.render('tools/tuc', model);
   });
 };

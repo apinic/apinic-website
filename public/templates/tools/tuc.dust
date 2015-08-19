@@ -4,17 +4,17 @@
   <div class="android-more-section">
     <div class="android-section-title mdl-typography--display-1-color-contrast">Saldo Tuc</div>
     <div class="android-card-container mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
         {>"layouts/adsense_left_300_250" /}
       </div>
       <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
         <div class="mdl-card__media">
-          <img src="http://res.cloudinary.com/dak42/image/upload/v1439181993/apinic/saldo_tuc.jpg" />
+          <img src="http://res.cloudinary.com/dak42/image/upload/v1439955733/apinic/bus.png" />
         </div>
         <div class="mdl-card__supporting-text">
           <form action="#">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
-              <input class="mdl-textfield__input" maxlength="8" pattern="^\d{8}$" type="text" id="number" />
+              <input class="mdl-textfield__input" pattern="^[0-9]{8}$" maxlength="8" type="text" id="number" />
               <label class="mdl-textfield__label" for="number">Número</label>
               <div>
                 <span class="mdl-textfield__error">No es un número de tarjeta TUC válido.</span>
@@ -28,7 +28,7 @@
           </button>
         </div>
       </div>
-      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
         {>"layouts/adsense_right_300_250" /}
       </div>
     </div>
