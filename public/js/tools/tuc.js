@@ -1,4 +1,5 @@
 (function() {
+  var form = $('#form');
   var number = $('#number');
   var button = $('#button');
   var spinner = $('.mdl-spinner');
@@ -11,10 +12,12 @@
     if (show) {
       spinner.show();
       button.hide();
+      form.hide();
     }
     else {
       spinner.hide();
       button.show();
+      form.show();
     }
   }
 
